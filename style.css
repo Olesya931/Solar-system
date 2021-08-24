@@ -1,0 +1,83 @@
+body{
+    background-image: url('img/bg.jpg');
+    background-size: 300px 300px;
+    margin: 0;
+    padding: 0;
+    height: 100vmin;
+}
+
+.item{
+    position: absolute;
+    margin: auto;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.orbit, .moon_orbit{
+    border: 0.1vmin solid lightgrey;
+    border-radius: 50%;
+    opacity: 0.5;
+    background: transparent;
+}
+
+.moon_orbit{
+    width: 6vmin;
+    height: 6vmin;
+}
+
+.planet, .moon{
+    z-index: 100;
+}
+
+.sun{
+    width: 8vmin;
+    height: 8vmin;
+}
+
+.mercury{
+    width: 2vmin;
+    height: 2vmin;
+}
+
+.moon{
+    width: 1vmin;
+    height: 1vmin;
+}
+
+.venus{
+    width: 3vmin;
+    height: 3vmin;
+}
+
+.earth{
+    width: 4vmin;
+    height: 4vmin;
+}
+
+.mars{
+    width: 3.5vmin;
+    height: 3.5vmin;
+}
+
+.jupiter{
+    width: 8vmin;
+    height: 8vmin;
+}
+
+.saturn{
+    width: 6vmin;
+    height: 6vmin;
+}
+
+.uranus{
+    width: 5vmin;
+    height: 5vmin;
+}
+
+.neptune{
+    width: 5vmin;
+    height: 5vmin;
+}
